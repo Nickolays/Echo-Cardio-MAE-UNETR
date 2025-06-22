@@ -12,6 +12,7 @@ data/
 outputs/
 runs/
 tensorboard_logs/
+lightning_logs/
 models/
 
 # Distribution / packaging
