@@ -61,3 +61,11 @@ UNETR segments left atrium and ventricle accurately from 2D echo:
 
 - python 3.12
 - requirements.txt
+
+
+## 📚 References
+
+    UNETR: Transformers for Medical Image Segmentation
+    MAE: Masked Autoencoders Are Scalable Vision Learners
+    EchoNet-Dynamic Dataset
+    CAMUS Dataset
