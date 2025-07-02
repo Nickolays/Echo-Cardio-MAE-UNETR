@@ -55,3 +55,9 @@ MAE learns to reconstruct missing regions in cardiac ultrasound frames:
 UNETR segments left atrium and ventricle accurately from 2D echo:
 
 <img width="600" src="images/good.png" alt="UNETR Segmentation">
+
+
+## Dependencies
+
+- python 3.12
+- requirements.txt
