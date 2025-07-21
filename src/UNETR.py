@@ -128,7 +128,6 @@ class UNETR(nn.Module):
             ConvBlock(3, 64),
             ConvBlock(64, 64),
         )
-
         # 7) Skip connections
         self.sc_3 = UpBlock(256, 64)
         self.sc6 = UpBlock(512, 128)
