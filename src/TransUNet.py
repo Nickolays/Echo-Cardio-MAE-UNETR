@@ -173,7 +173,7 @@ class TransUNet(nn.Module):
 
         # vit_out = self.transformer(pixel_values=tokens, output_hidden_states=False)
         vit_out = self.transformer.encoder(tokens)
-        print("ViT output shape:", vit_out.last_hidden_state.shape)  # (B, N, hidden_size)
+        # print("ViT output shape:", vit_out.last_hidden_state.shape)  # (B, N, hidden_size)
         vit_out = vit_out.last_hidden_state[:, 1:, :]  # (B, N, hidden_size), exclude CLS token
 
         # 4. Reshape back to spatial map

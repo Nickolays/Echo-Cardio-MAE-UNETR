@@ -3,6 +3,7 @@
 This project demonstrates a powerful two-stage pipeline for medical image segmentation using:
 - **Masked Autoencoders (MAE)** for self-supervised pretraining on unlabeled cardiac ultrasound images
 - **UNETR** (UNet with Transformer Encoder) for accurate segmentation of cardiac chambers (LV, LA, RV, RA) from 2D echocardiographic data
+- **TransUNet** 
 
 ---
 
@@ -25,9 +26,11 @@ This project demonstrates a powerful two-stage pipeline for medical image segmen
     ├── EchoNet.ipynb
     ├── MAE.ipynb
     └── UNETR.ipynb
+    └── TransUNet.ipynb
 ├── src
     ├── MAE_model.py
     ├── UNETR.py
+    |── TransUNet.py
     ├── datasets.py
     ├── loader.py
     ├── losses.py
@@ -66,6 +69,7 @@ UNETR segments left atrium and ventricle accurately from 2D echo:
 ## 📚 References
 
     UNETR: Transformers for Medical Image Segmentation
+    TransUNet: 
     MAE: Masked Autoencoders Are Scalable Vision Learners
     EchoNet-Dynamic Dataset
     CAMUS Dataset
